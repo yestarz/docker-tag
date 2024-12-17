@@ -19,7 +19,7 @@ docker login --username=xxx registry.cn-chengdu.aliyuncs.com
 
 2. 下载本项目，得到`tag.sh`文件
 
-3. 修改`tag.sh`文件的`registry`为你的
+3. 修改`tag.sh`文件的`registry`为你的地址
 
 4. 赋予权限
 
@@ -29,7 +29,14 @@ chmod +x tag.sh
 
 5. 执行命令，根据提示进行操作即可
 
+```bash
+./tag.sh
+``` 
+
 6. 最后成功后，可以在国内的机器上拉取阿里云的镜像就好了
 
 # 结语
 本项目的脚本通过ChatGPT生成
+
+# 免责声明
+本软件用于学习研究使用，若因使用本软件造成的一切法律责任均与本人无关！
